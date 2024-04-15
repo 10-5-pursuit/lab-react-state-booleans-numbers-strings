@@ -29,7 +29,7 @@ function App() {
       <button className='btn' onClick={click}>+{increment}</button>
       <br />
       {score >= 10 && (
-        <button onClick={upgrade}>Pay 10 points to increase by +{increment} to +{increment + 1}</button>
+        <button onClick={upgrade}>Pay 10 points to change from +{increment} to +{increment + 1}</button>
       )}
       {score >= 100 && (
         <div>
