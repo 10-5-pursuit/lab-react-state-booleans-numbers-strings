@@ -1,5 +1,28 @@
 /* Your code here! */
 main {
-  margin: 25px auto;
+  margin: 20px 100px 100px 200px;
   width: 50%;
+  height: 90vh;
+  border: 1px solid black;
+  border-bottom: none;
+  border-top: none;
+}
+h1, h2{
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+button{
+  background-color: white;
+  margin: 20px 20px 20px 100px ;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: gray;
+  border-color: lightgray;
+  margin-left: center;
+}
+
+.btn{
+  margin: center;
 }
