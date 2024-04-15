@@ -2,7 +2,7 @@
 
 Build a simple clicker "game" that makes use of React, props, and state!
 
-![Example of the clicker game.](./assets/clicker-game.gif)
+![Example of the clicker game.](https://darling-shortbread-7a44e1.netlify.app)
 
 ---
 
