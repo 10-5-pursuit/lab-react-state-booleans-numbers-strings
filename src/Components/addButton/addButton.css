@@ -1,0 +1,14 @@
+/* ./scr/Components/addButton/addButton.css */
+
+.add-button {
+  text-align: center;
+  border: 3px solid black;
+  cursor: pointer;
+  width: fit-content;
+  margin: 0 auto;
+  padding: 10px 20px;
+}
+
+.add-button:active {
+  border-color: blue;
+}
