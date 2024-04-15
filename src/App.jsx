@@ -14,7 +14,7 @@ function App() {
       setScore(score - 10);
       setIncrement(increment + 1);
     } else {
-      alert("You don't have enough points!");
+      alert("You can't afford that!");
     }
   };
 
