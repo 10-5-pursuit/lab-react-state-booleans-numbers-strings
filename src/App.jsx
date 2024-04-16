@@ -1,12 +1,16 @@
 import React from "react";
+import ClickGame from "./Components/ClickGame";
+
 import "./App.css";
 
 function App () {
     return (
       <main>
-        <p>React State Lab</p>
+        <ClickGame />
       </main>
     );
 }
+
+
 
 export default App;

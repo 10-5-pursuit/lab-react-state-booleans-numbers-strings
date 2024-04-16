@@ -1,0 +1,17 @@
+.container{
+    display: grid;
+    justify-items: center;
+    justify-content: center;
+
+}
+.increment{
+    display: block;
+    margin-bottom: 20px;
+    width: 35px;
+}
+button{
+    background: white;
+}
+button:hover{
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+}
