@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body {
+    height: 100vh;
+    width: 100vw;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    &__increaseScore {
+        width: 30px;
+    }
+
+    .click-options {
+        display: flex;
+        gap: 20px;
+    }
+    &__increaseCounter {
+        width: 16rem;
+    }
+
+    &__reset {
+        width: 6rem;
+    }
+}
