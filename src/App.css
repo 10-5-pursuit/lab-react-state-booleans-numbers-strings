@@ -4,12 +4,17 @@ main {
   width: 50%; */
   width: 100vw;
   height: 100vh;
-  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
   
 }
 button {
-  width: 100px;
-  height: 20px;
-  border-radius: 20px;
+  width: 40px;
+  
   border: 1px solid black;
+}
+.longButton {
+  width: 300px;
 }
